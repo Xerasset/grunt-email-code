@@ -1,0 +1,128 @@
+_receipt.scss
+/* ------------------------------------------
+   STYLES SPECIFIC TO THE RECEIPT EMAILER
+------------------------------------------ */
+
+logo-wrapper{
+	width: 150px !important;
+	height: 50px !important;
+}
+.body-text {
+	margin: 0px;
+	padding: 0px;
+	line-height: 130%;
+	font-weight: 500;
+}
+
+.body-link {
+  color: $primary-color !important;
+  text-decoartion: none !important;
+  font-family: $font;
+  font-weight: inherit;
+
+}
+
+.mega-table {
+	display: inline-block;
+	padding: 0px !important;
+	margin: 0px !important;
+	border: none !important;
+	box-sizing: border-box;
+	font-size: 16px;
+
+	tr{
+	vertical-align: middle;
+	align: top;
+	}
+
+}
+
+.info-table {
+	width: 280px;
+	display: inline-block !important;
+
+	
+}
+
+.itech-image-wrapper {
+	width: 60px;
+	height:60px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+
+}
+
+.itech-image {
+	width: 60px !important;
+	height: 60px !important;
+	
+}
+
+.repair-details {
+	font-size: 14px !important;
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+.details-title-wrapper {
+	padding-bottom: 10px;
+}
+
+.details-title {
+	padding: 15px 0px;
+	font-size: 14px !important;
+	color: $static !important;
+	padding: 20px 0px;
+	font-weight: 400;
+}
+
+.static {
+	color: $static !important;
+	font-size: 16px;
+	
+}
+
+.dynamic {
+	color: $secondary-color;
+	font-size: 16px;
+	padding-left: 10px;
+
+}
+
+.dynamic-link {
+	color: $primary-color !important;
+	font-size: 16px;
+
+}
+
+.auth-image {
+	height: 60px;
+	max-width: 50%;
+	padding: 20px 0px;
+
+}
+
+.signature-container {
+	padding-top: 30px;
+}
+
+.ad-row {
+	
+}
+
+.ad-container {
+	
+}
+
+.ad-image {
+	vertical-align: middle;
+}
+
+.ad-header {
+	
+}
+
+.ad-text {
+	
+}
