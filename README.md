@@ -1,3 +1,18 @@
+# TESS'S AWESOME EMAIL STUFF
+
+# install xcode
+check for Xcode command line tools
+# install homebrew
+http://brew.sh/
+# install gnupg
+`brew install gnupg gnupg2`
+# install rvm (ruby version manager)
+https://rvm.io/rvm/security
+# Install apricots nonsense
+gem install premailer hpricot nokogiri
+# Install SASS
+sudo gem install sass
+
 # Grunt Email Design Workflow
 
 Designing and testing emails is a pain. HTML tables, inline CSS, various devices and clients to test, and varying support for the latest web standards.
