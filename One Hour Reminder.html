@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type">{% snippet "email_styles_default" %}</head>
+<body>
+<table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" style="padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;" width="100%">
+<tbody>
+<tr>
+<td style="padding-bottom: 25px" class="">
+{% snippet "header_default" %}
+</td>
+</tr>
+<!--BEGIN TITLE CONTAINER-->
+<tr>
+<td class="">
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="templateContainer" width="600">
+<tbody><tr>
+<td align="center" style="padding: 40px 20px; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif;" valign="middle" class="">
+<table border="0" cellpadding="0" cellspacing="0" id="templateNotification" width="100%">
+<tbody><tr>
+<td align="center" class="headerContent" style="font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; padding-bottom:10px;" valign="top">
+<span style="display: block; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; line-height: 100%; color: #444444; font-size: 26px; font-weight: bold; text-align: center !important;" class="">Your repair is 1 Hour Away</span>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<!--END TITLE BLOCK-->
+<!-- BEGIN BODY CONTAINER -->
+<tr>
+<td class="">
+<table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="templateBody" style="border-top: none; border-bottom: none;" width="600">
+<tbody><tr>
+<td align="center" valign="top">
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="templateBody" style="border-top: none; border-bottom: none;" width="100%">
+<tbody><tr>
+<td style="color: #505050; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; padding: 0 20px 20px 20px; text-align: left;" valign="top" class="">Just a friendly reminder, you repair is an hour away. We'll see you soon! If you have any questions, please contact Concierge by emailing <a href="concierge@icracked.com" target="_blank" style="text-decoration: none !important; color: #00AAE8;" class="">Concierge@iCracked.com</a>.<br><br></td>
+</tr>
+</tbody></table>
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" id="templateBody" style="border-top: none; border-bottom: none;font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; font-size: 16px;" width="100%" class="">
+<tbody><tr>
+<td style="text-align: left; padding-bottom: 20px;" class="">
+<span style="color: #404040; font-size: 20px; font-weight: bold; " class="">Meeting Details</span>
+</td>
+<td align="right" colspan="3" class="">
+<span style="color: #404040; font-size: 16px; font-weight: bold;" class="">Add to Calendar</span>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom: 15px;" class="">
+				{{ appointment_date }}
+				</td>
+</tr>
+</tbody></table>
+<table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" style="border-top: none; border-bottom: none;" width="100%">
+<tbody><tr>
+<td class="templateColumnContainer" style="width: 50%; color: #505050; font-size: 14px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; line-height: 150%; text-align: left; " valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="templateColumnContainer" style="font-size: 16px !important; padding-top: 25px;" width="100%">
+<tbody><tr>
+<td class="templateColumnContainer" style="font-size: 14px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; width: 50%; padding-bottom: 20px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="templateColumnContainer" style="font-size: 16px !important;" width="100%">
+<tbody><tr>
+<td colspan="2" class=""><strong class="">Your Contact Info</strong></td>
+</tr>
+<tr>
+<td width="75" class="">Name:</td>
+<td class="">{{ customer_name }}</td>
+</tr>
+<tr>
+<td width="75" class="">Phone</td>
+<td><span style="color: #505050 !important;" class="">{{ customer_phone }}</span></td>
+</tr>
+<tr>
+<td width="75" class="">Email</td>
+<td class=""><a data-click-track-id="7411" href="#" style="text-decoration: none !important; color: #00AAE8;"><span style="color: #00AAE8;" class="">{{ customer_email }}</span></a></td>
+</tr>
+</tbody></table>
+</td>
+<td align="right" class="templateColumnContainer" style=" font-size: 14px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; width: 50%; padding-bottom: 20px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="templateColumnContainer" style="font-size: 16px !important;" width="100%">
+<tbody><tr>
+<td colspan="2" class=""><strong class="">Your Device</strong></td>
+</tr>
+<tr>
+<td width="75" class="">Device Model</td>
+<td>{{ device.model_type }}</td>
+</tr>
+<tr>
+<td width="75" class="">Device Issue</td>
+<td class="">{{ device.issue_type }}</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td class="templateColumnContainer" style="width: 50%; color: #505050; font-size: 14px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; line-height: 150%; text-align: left; " valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="" width="100%">
+<tbody><tr>
+<td class="templateColumnContainer" colspan="2" style="font-size: 16px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="" style="padding-bottom: 20px;" width="100%">
+<tbody><tr>
+<td class="" colspan="2" style="font-size: 16px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif;" valign="top">
+<strong class="">Your iTech</strong>
+</td>
+</tr>
+<tr>
+<td class="" style="padding-right: 10px; ffont-size: 16px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif; width: 52px; padding-top:5px;" valign="top">
+<img src="{{ itech_image }}" style="width: 52px !important; height: 52px !important;" class="">
+</td>
+<td class="" style="font-size: 16px !important; font-family: 'PT Sans', Verdana, Helvetica, Arial, sans-serif;" valign="top">
+											 {{ itech_name }}<br>
+<span style="color: #505050 !important;" class=""></span> {{ itech.phone }}<br>
+<a data-click-track-id="9118" href="#" style="text-decoration: none !important; color: #00AAE8;"><span style="color: #00AAE8;" class="">{{ itech_email }}</span></a>
+</span></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+<!-- END BODY CONTENT -->
+</td>
+</tr>
+<!-- END BODY CONTAINER-->
+<tr>
+<td>
+{% snippet "signature_default" %}
+</td>
+</tr>
+<tr>
+<td style="padding-top: 50px;">
+{% snippet "footer_default" %}
+</td>
+</tr>
+</tbody></table>
+</body></html>

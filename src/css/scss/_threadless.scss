@@ -1,0 +1,46 @@
+_threadless.scss
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+
+}
+
+table {
+	border: 1px solid #009ACD;
+}
+
+tr {
+	border: 1px solid #F2473F;
+}
+
+td {
+	border: 1px solid #919191;
+} 
+
+img {
+	width: 100%;
+}
+
+.header {
+	width: 100% !important;
+
+}
+
+.header tr td img {
+	height: 60px;
+	width: 160px;
+}
+
+.nopadding {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.shopall {
+	padding: 0 !important;
+	text-align: left;
+}

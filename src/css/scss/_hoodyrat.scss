@@ -1,0 +1,40 @@
+_hoodyrat.scss
+
+body {
+	background-color: $secondary-color;
+}
+
+.body {
+	background-color: $bg !important;
+	color: $secondary-color;
+}
+
+.hoodyrat-header {
+	height: 60px;
+	width: 350px;
+}
+
+.redbar {
+	background-color: $hrred;
+	height: 40px;
+	width: $width;
+}
+
+.contentwrapper {
+	border: 5px solid $secondary-color !important;
+	font-size: 18px !important;
+	padding: 20px !important;
+}
+
+.contentcontainer {
+	padding-top: 100px;
+}
+
+.contentwrapper p, span {
+	padding: 10px;
+}
+
+.radarrat {
+	text-align: bottom;
+}
+
